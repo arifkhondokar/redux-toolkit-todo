@@ -1,0 +1,25 @@
+
+// function App() {
+//   return (
+//     <>
+//     </>
+//   )
+// }
+// export default App
+
+
+import AddTodo from './components/AddTodo'
+import Todos from './components/Todos'
+
+function App() {
+
+  return (
+    <>
+      <h1 >Redux toolkit</h1>
+      <AddTodo />
+      <Todos />
+    </>
+  )
+}
+
+export default App
